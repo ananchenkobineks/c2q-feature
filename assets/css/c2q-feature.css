@@ -1,0 +1,129 @@
+form.q2c.q2c_reject.woocommerce {
+	display: inline-block;
+	margin-top: 60px;
+}
+form.q2c.q2c_add_to_cart.woocommerce {
+	display: inline-block;
+	margin-top: 15px;	
+}
+.c2q-action-td {
+	min-width: 240px;
+}
+form.q2c.q2c_reject.woocommerce {
+	padding: 0 !important;
+	margin-right: 13px;
+}
+form.q2c.q2c_add_to_cart.woocommerce {
+	margin-right: 14px;	
+}
+.mini_quotelist_line {
+	position: relative;
+}
+.mini_quotelist_line li {
+	padding-left: 25px;
+}
+.mini_quotelist_line a.title {
+	color: #007acc;
+	display: block;
+	padding-right: 32px;
+}
+.mini_quotelist_line a.title img {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.mini_quotelist_line .remove {
+	font-size: 16px !important;
+    position: absolute;
+    top: 2px;
+    left: 0;
+}
+.mini_quotelist_line span.price,
+.mini_quotelist_line span.price span {
+	color: #1a1a1a !important;
+}
+#request-quote-page-button {
+	padding: 7px 14px !important;
+    height: auto;
+    width: auto !important;
+    margin-top: 10px;
+    font-family: inherit;
+}
+#request-quote-page-button:active {
+    top: 0;
+}
+
+.c2q_login_prompt .c2q_my_account {
+	height: auto;
+	display: inline-block;
+	padding: 0.618em;
+	line-height: 1.4em;
+	text-align: center;
+	background-color: #333;
+	-webkit-transition: all .2s linear;
+    -moz-transition: background .2s linear;
+    -o-transition: all .2s linear;
+    -ms-transition: all .2s linear;
+    border-radius: 3px;
+    font-weight: bold;
+	transition: all .2s linear;
+    color: #fff;
+	box-sizing: border-box;
+	opacity: 1;
+}
+.c2q_login_prompt .c2q_my_account:hover {
+	background: red;
+    border-color: #ca0606;
+}
+.woocommerce ul.products .c2q_login_prompt .c2q_my_account {
+	margin-top: 1em;
+	width: 100%;
+}
+
+/*
+ * Quotelist menu styles
+*/
+
+nav.ubermenu .account-menu-item {
+	padding-left: 0;
+}
+nav.ubermenu .quotelist-submenu {
+	width: 350px;
+	padding: 15px 20px;
+	left: auto !important;
+    right: 0;
+}
+nav.ubermenu .quotelist-submenu .remove {
+	top: -1px;
+}
+nav.ubermenu .quotelist-submenu .icon {
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 25;
+}
+nav.ubermenu .quotelist-submenu .waiting {
+	display: none;
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255,.7);
+    z-index: 20;
+	transition: opacity 1s ease-in-out;
+}
+nav.ubermenu .quotelist-submenu.action-remove .waiting {
+	display: block;
+}
+
+/*
+ * Custom Top Menu
+*/
+
+.ubermenu-loc-top-head-menu > ul {
+	float: right;
+}
